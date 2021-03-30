@@ -1,0 +1,18 @@
+
+label{
+    color: $nav-color;
+}
+
+.button-submit {
+    color: black;
+    font-size: large;
+    font-weight: bold;
+    background-color: $nav-color;
+    margin: 5px;
+    border-radius: 5px;
+}
+
+.button-clear {
+    @extend .button-submit;
+    background-color: $nav-color;
+}

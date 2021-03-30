@@ -1,0 +1,21 @@
+
+body{
+    background-color: $base-color;
+}
+
+.home-heading {
+    text-align: center;
+    margin-top: 20px;
+    padding: 10px;
+    @include font-stack();
+}
+
+.home-img {
+    margin: 0px 50px 0px 50px;
+    float: left;
+}
+
+.home-content {
+    margin: 20px;
+    @include font-content();
+}

@@ -1,0 +1,13 @@
+.table thead th {
+	text-transform: uppercase;
+    color:$nav-color;
+}
+
+.table tbody td {
+	color:$nav-color;
+}
+
+.table-hover tbody tr:hover {
+		background: #78379d;
+		color: #fff;
+	}

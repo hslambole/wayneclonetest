@@ -1,0 +1,16 @@
+.navbar {
+    background-color: $nav-color;
+    font-size: large;
+
+    a {
+        text-decoration: none;
+    }
+
+    .dropdown-menu{
+        color: $nav-color;
+    }
+
+    .dropdown-item {
+        color: rgb(97, 97, 235);
+    }
+}

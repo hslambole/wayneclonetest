@@ -1,0 +1,26 @@
+.about-heading {
+    text-align: left;
+    margin-top: 20px;
+    margin-left: 20px;
+    padding: 10px;
+    @include font-stack();
+}
+
+.about-img {
+    margin: 0px 50px 0px 50px;
+    height: 400px;
+    width: 700px;
+    float: right;
+    padding: 10px;
+}
+
+.about-content {
+    margin: 20px;
+    @include font-stack;
+}
+
+.about-moto {
+    text-align: center;
+    margin: 20px;
+    @include font-stack;
+}
